@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b510efae60abd4ea28e1b70cf69927ac, type: 3}
+  m_Name: Footstep Sounds
+  m_EditorClassIdentifier: 
+  textureTypes:
+  - name: Ground
+    textures:
+    - {fileID: 2800000, guid: 82a30f8eb15eb9049b32339f82fa21c3, type: 3}
+    - {fileID: 2800000, guid: ce6e3eaa632b8454ba2bcc6809437fe7, type: 3}
+    - {fileID: 2800000, guid: b0fe82528f70e8947aa0d123fa3194fe, type: 3}
+    - {fileID: 2800000, guid: 6200c2173b59a4040b82202cdbc218f1, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: 6898fd24af8f940f09a7f4583b2c794d, type: 3}
+    - {fileID: 8300000, guid: cfd4e9c2d94744792b11f224a2e8a7b5, type: 3}
+    - {fileID: 8300000, guid: 8a445006848524b4cb806e7d6165e36c, type: 3}
+  - name: Acphalt
+    textures:
+    - {fileID: 2800000, guid: 16ac3ab417c714067aa75b54d25ae72b, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: cbf7daaa78e3cc14096fad85e4327da5, type: 3}
+    - {fileID: 8300000, guid: 4aaac69f1c80f044697db0b535b41fbf, type: 3}
+  - name: Metal
+    textures:
+    - {fileID: 2800000, guid: 1af2fd60b8195764a8b5462e749cc190, type: 3}
+    - {fileID: 2800000, guid: 0229c4722a1245f4c96d6188bdfc517a, type: 3}
+    - {fileID: 2800000, guid: 0980c825b0b0e471ea3454d8c02c0437, type: 3}
+    - {fileID: 2800000, guid: 2d433f66817e44a24823058357bd54dc, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: cbf7daaa78e3cc14096fad85e4327da5, type: 3}
+    - {fileID: 8300000, guid: 4aaac69f1c80f044697db0b535b41fbf, type: 3}
+  - name: Wood
+    textures:
+    - {fileID: 2800000, guid: 3c2d3588cd0aaea42a546d138e1ad7f0, type: 3}
+    - {fileID: 2800000, guid: 6d62e878148b1b447922cad9e7122199, type: 3}
+    footstepSounds:
+    - {fileID: 8300000, guid: cbf7daaa78e3cc14096fad85e4327da5, type: 3}
+    - {fileID: 8300000, guid: 4aaac69f1c80f044697db0b535b41fbf, type: 3}
